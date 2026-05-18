@@ -16,7 +16,7 @@ const LIGHT_BLUE = "#dce6f9";   // soft backgrounds
 const WHITE      = "#ffffff";
 
 // ─── STAFF PASSWORD ───────────────────────────────────────────────────────────
-const STAFF_PASSWORD = "DreamDo@2024";
+const STAFF_PASSWORD = import.meta.env.PASSWORD;
 
 // ─── FORM QUESTIONS ───────────────────────────────────────────────────────────
 const QUESTIONS = [
